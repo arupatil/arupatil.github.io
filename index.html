@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
 	<title>Aruna Patil</title>
 	<meta name="theme-color" content="#182153">
-	<link rel="icon" href="images/logo2.jpg" type="image/x-icon">
+	<link rel="icon" href="images/logo2.png" type="image/x-icon">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -12,34 +13,20 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-	<script src="https://use.fontawesome.com/6cb0209a75.js"></script><link href="https://use.fontawesome.com/6cb0209a75.css" media="all" rel="stylesheet">
+	<script src="https://use.fontawesome.com/6cb0209a75.js"></script>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
-<style type="text/css">
-@font-face {
-  font-weight: 400;
-  font-style:  normal;
-  font-family: circular;
+</head>
 
-  src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
-}
-
-@font-face {
-  font-weight: 700;
-  font-style:  normal;
-  font-family: circular;
-
-  src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
-}</style></head>
-<body>
-
-<div class="wrapper d-flex align-items-stretch">
-	<nav id="sidebar" style="background-color: #182153;">
-			<div style="position: fixed;width: 270px; background-color: #182153;">
+<body onhashchange="myFunction()">
+	<a id="buttontotop" href="#aboutme"></a>
+	<div class="wrapper d-flex align-items-stretch">
+		<nav id="sidebar" style="background-color: #182153;">
+			<div style="position: fixed;width: 270px;">
 				<div class="custom-menu">
 					<button type="button" id="sidebarCollapse" class="btn btn-primary">
 						<i class="fa fa-bars"></i>
@@ -47,34 +34,35 @@
 					</button>
 				</div>
 				<div class="p-4">
-					<h1 style="padding-top: 10px;"><a href="index.html" class="logo" style="padding-top: 30px;">Aruna Patil <span>Principal Software Engineer | JAVA | PHP </span></a></h1>
+					<h1 style="padding-top: 10px;"><a href="index.html" class="logo"
+							style="padding-top: 30px;">Aruna Patil <span>Principal Software Engineer | JAVA | PHP | Backend Developer</span></a></h1>
 					<div class="nav_menu_portfolio">
 						<ul class="list-unstyled components mb-5">
 							<li class="active">
 								<a href="#aboutme"><span class="fa fa-home mr-3"></span> About Me</a>
 							</li>
-							<li class="">
+							<li>
 								<a href="#education"><span class="fa fa-book mr-3"></span> Education</a>
 							</li>
-							<li class="">
+							<li>
 								<a href="#experience"><span class="fa fa-laptop mr-3"></span> Experience</a>
 							</li>
-							<li class="">
+							<!-- <li>
 								<a href="#projects"><span class="fa fa-briefcase mr-3"></span> Projects</a>
-							</li>
-							<li class="">
+							</li> -->
+							<li>
 								<a href="#skills"><span class="fa fa-cogs mr-3"></span> Skills</a>
 							</li>
-							<li class="">
+							<li>
 								<a href="#achievements"><span class="fa fa-trophy mr-3"></span> Achievements</a>
 							</li>
-							<li class="">
+							<li>
 								<a href="#certificates"><span class="fa fa-certificate mr-3"></span> Certificates</a>
 							</li>
-							<li class="">
+							<li>
 								<a href="#coding"><span class="fa fa-code mr-3"></span> Coding Profiles</a>
 							</li>
-							<li class="">
+							<li>
 								<a href="#contact"><span class="fa fa-paper-plane mr-3"></span> Contact</a>
 							</li>
 						</ul>
@@ -82,9 +70,549 @@
 					</div>
 				</div>
 			</div>
-	</nav>
+		</nav>
 
-</div>
+		<!-- Page Content ---------------------------------------------------------------------------------------------------------------- -->
+		<div id="content" class="p-4 p-md-5 pt-5">
+			<div id="aboutme" class="section_nav">
+				<div class="heading ">
+					<h3 style="color: white; letter-spacing: 3px; font-family:  'Poppins', Arial, sans-serif;">ABOUT ME
+					</h3>
+				</div>
+				<div class="flex-container1" data-aos="zoom-in">
+					<div class="aboutme_inner aboutme_left">
+						<img src="images/aruna.jpg" id="mypic">
+					</div>
+					<div class="aboutme_inner aboutme_right">
+						<p>
+							<span id="myname">Aruna Patil</span>
+							<br>
+							<b>Principal Software Engineer</b>
+						</p>
+						<p>
+							<b>Email:</b>
+							<br>
+							patilarunash@gmail.com
+						</p>
+						<p>
+							<b>Phone Number:</b>
+							<br>
+							+919146758956
+						</p>
+						<p>
+							<b>Located at:</b>
+							<br>
+							Hyderabad, India
+						</p>
+						<p>
+							<b style="margin-right: 5px;">Resume:</b>
+							<a href="https://drive.google.com/file/d/1vSXPZuiwO4K3TXj9PQTjw6mjRDPAFUq8/view?usp=sharing"
+								target="_blank" download><i class="fa fa-download fa-2x text-black"
+									aria-hidden="true"></i></a>
+						</p>
 
+					</div>
+				</div>
+				<div class="heading" style="width: 80%; margin: 0 auto;">
+					<a href="https://www.linkedin.com/in/patilaruna//" target="_blank"><i
+							class="fa fa-linkedin fa-2x icon-cog text-white" aria-hidden="true"></i></a>
+					<a href="https://github.com/arupatil" target="_blank"><i
+							class="fa fa-github fa-2x giticon icon-cog text-white" aria-hidden="true"></i></a>
+				</div>
+
+			</div>
+			<br><br>
+			<div id="intro">
+				<div class="intro_css ">
+					<div id="intro_inner">
+						<h5>Hello! I'm Aruna.</h5>
+						<p>
+							I am a Software Engineer with sound judgment and strong interpersonal skills. I am an
+							ambitious and hardworking individual with a sheer curiosity into the emerging technologies
+							of the software world.
+						</p>
+					</div>
+				</div>
+			</div>
+			<br><br>
+			<div id="education" class="section_nav">
+				<div class="heading">
+					<h3 style="color: white; letter-spacing: 3px; font-family: 'Poppins', Arial, sans-serif;">EDUCATION
+					</h3>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="timeline">
+							<li class="event" data-date="2014-2017">
+								<h3>Bachelor's Degree</h3>
+								<p>Kolhapur Institute of Technology, College Of Engineering
+									<br>
+									Information Technology
+									<br>
+									CGPA - 6
+								</p>
+							</li>
+							<li class="event" data-date="2011-2014">
+								<h3>Diploma in Computer Science</h3>
+								<p>Government Residence Women's Polytechnique Tasgaon Sangali
+									<br>
+									Computer Science
+									<br>
+									Percentage - 78%
+								</p>
+							</li>
+
+							<!-- <li class="event" data-date="2013-2015">
+								<h3>Government Residence Women's Polytechnique Tasgaon Sangali</h3>
+								<p>St. John's School Marhauli, Varanasi
+									<br>
+									Computer Science
+									<br>
+									Percentage - 78%
+								</p> -->
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<br><br>
+			<div id="experience" class="section_nav">
+				<div class="heading">
+					<h3 style="color: white; letter-spacing: 3px; font-family: 'Poppins', Arial, sans-serif;">EXPERIENCE
+					</h3>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="timeline">
+							<li class="event" data-date="07/2021 - Present">
+								<h3>Principal Software Engineer</h3>
+								<p>Netcore Cloud, Mumbai, India (06/2022 - 12/2024)
+								<ul>
+									
+										<li>Successfully developed and managed high-performing web applications leveraging PHP, MongoDB, and SQL, driving
+										increased user engagement and operational excellence.</li>
+										<li>Delivered a Redis Bridge project using Java, enabling efficient data communication and caching solutions.</li>
+										<li>Applied Agile methodologies to ensure timely delivery of high-quality software solutions.</li>
+										<li>Delivered the end-to-end Ease of Onboarding project, simplifying the process of adding applications, and contributed
+										to the successful completion of 4+ projects across various domains.</li>
+										<li><b>Resolved: </b> client-reported issues within 24 hours, improving satisfaction and support standards.</li>
+										<li>Worked on App Push Notifications (APN), enhancing user communication modules.</li>
+									
+								</ul>
+								</p>
+							</li>
+							<li class="event" data-date="01/2022 - 05/2022">
+								<h3>Software Engineer</h3>
+								<p>mPokket, Bengaluru, India
+								<ul>
+									<li>Migrated a CodeIgniter project into Laravel, modernizing the codebase.</li>
+									<li>Implemented RESTful APIs and integrated third-party services to enhance application functionality.
+									</li>
+								</ul>
+								</p>
+							</li>
+							<li class="event" data-date="02/2021 - 12/2021">
+								<h3>Web Developer</h3>
+								<p>Publir LLC, Hyderabad, India
+								<ul>
+									<li>Integrated Mailchimp API for email marketing automation.</li>
+									<li>Enhanced database systems with MongoDB and MySQL for service-based projects.
+									</li>
+									<li>Improved crowdfunding features by <b> integrating PayPal </b> and creating custom widgets.</li>
+									<li>Enhanced Ad Management by implementing unique names for sticky ads and creating new sticky ad functionality.</li>
+								</ul>
+								</p>
+							</li>
+							
+							<li class="event" data-date="07/2019 – 02/2021">
+								<h3>Software Engineer</h3>
+								<p>Veniso, Hyderabad, India
+									<ul>
+										<li>
+											<br><br>
+									Built APIs using Java and PHP for seamless third-party integrations.
+										</li>
+										<li>Managed subscription services for a proprietary platform with MongoDB and MySQL, ensuring efficient billing and
+											user experience.</li>
+										<li>
+											Optimized system performance using CRON jobs and MQueue for sequential request processing.
+										</li>
+									</ul>
+								</p>
+							</li>
+							<li class="event" data-date="12/2017 – 12/2018">
+								<h3>Mobile Application Developer</h3>
+								<p>Spectra Solutions
+									<ul>
+										<li>
+											Developed and deployed 20+ applications across Android and iOS platforms using JavaScript and Ionic frameworks,
+											including e-commerce applications to enhance user experience and streamline online transactions.
+										</li>
+										<li>Implemented live tracking and chat systems using JavaScript and PHP.</li>
+										<li>
+											Integrated payment gateways like Stripe Pay and Razor Pay for seamless transactions.
+										</li>
+									</ul>
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<br><br>
+			<!-- <div id="projects" class="section_nav">
+				<div class="heading">
+					<h3 style="color: white; letter-spacing: 3px; font-family: 'Poppins', Arial, sans-serif;">PROJECTS
+					</h3>
+				</div>
+				<div class="project-div">
+					<div class="card border-light mb-3">
+						<div class="card-header">Reinforcement Learning-Based Routing Protocol for Opportunistic
+							Networks | Research Paper | Prof. S.K. Dhurendar (HOD, IT) | NSIT, Delhi | IEEE ICC'20</div>
+						<div class="card-body">
+
+							<p class="card-text">
+								<span class="project-text">Duration:</span> 05/2019 - 10/2019
+								<br>
+								<span class="project-text">Project overview:</span> Built a fuzzified Q-learning based
+								router for the transfer of message packets in OppNets. Research paper on the same has
+								been published in IEEE Xplore.
+								<br>
+								<span class="project-text">Exposure: </span>OppNets, Eclipse, Fuzzy logic, ONE
+								Simulator, Routing Protocols, Java
+							</p>
+						</div>
+						<div class="project-button"><a href="https://ieeexplore.ieee.org/abstract/document/9149039"
+								target="_blank"><button type="button" class="btn btn-dark">View Project</button></a>
+						</div>
+					</div>
+					<div class="card border-light mb-3">
+						<div class="card-header">Reach Out To Us - ACM | ACM VIT Student Chapter</div>
+						<div class="card-body">
+
+							<p class="card-text">
+								<span class="project-text">Duration:</span> 05/2018
+								<br>
+								<span class="project-text">Project overview:</span>A website to get reviews and feedback
+								about the Student chapter, ACM from students as well as faculties. Worked in a team of
+								4.
+								<br>
+								<span class="project-text">Exposure: </span>HTML5, CSS, Jquery, Javascript, Ajax, Sails,
+								Node.js, Materialize, GIT
+							</p>
+						</div>
+						<div class="project-button"><a
+								href="https://samriddhi-99.github.io/ACM_Reach_Out_To_Us-Frontend-/"
+								target="_blank"><button type="button" class="btn btn-dark">View Project</button></a>
+						</div>
+					</div>
+					<div class="card border-light mb-3">
+						<div class="card-header">Library Management System | Prof. Bimal Kumar Ray | VIT, Vellore</div>
+						<div class="card-body">
+
+							<p class="card-text">
+								<span class="project-text">Duration:</span> 09/2018
+								<br>
+								<span class="project-text">Project overview:</span>To automate the work of issuing
+								books, returning books and calculating fine.
+								<br>
+								<span class="project-text">Exposure: </span>MySql, Node.js, Javascript, EJS, Express,
+								Bootstrap
+							</p>
+						</div>
+						<div class="project-button"><a href="https://github.com/samriddhi-99/Library_Management_System"
+								target="_blank"><button type="button" class="btn btn-dark">View Project</button></a>
+						</div>
+					</div>
+					<div class="card border-light mb-3">
+						<div class="card-header">Prosper Loan | Udacity | Data Analyst Nanodegree</div>
+						<div class="card-body">
+
+							<p class="card-text">
+								<span class="project-text">Duration:</span> 05/2020
+								<br>
+								<span class="project-text">Project overview:</span> Analysis to find the factors that
+								determine loan approval.
+								<br>
+								<span class="project-text">Exposure: </span>Pandas, Numpy, Jupyter Notebook, Matplotlib,
+								Seaborn
+							</p>
+						</div>
+						<div class="project-button"><a href="https://github.com/samriddhi-99/Prosper-Loan-Data-Analysis"
+								target="_blank"><button type="button" class="btn btn-dark">View Project</button></a>
+						</div>
+					</div>
+					<div class="card border-light mb-3">
+						<div class="card-header">WeRateDogs | Data Wrangling and Analysis | Udacity | Data Analyst
+							Nanodegre</div>
+						<div class="card-body">
+
+							<p class="card-text">
+								<span class="project-text">Duration:</span> 05/2020
+								<br>
+								<span class="project-text">Project overview:</span> Analysis on data collected in
+								various forms from WeRateDogs Twitter Account to get meaningful information about
+								different breeds of dogs.
+								<br>
+								<span class="project-text">Exposure: </span>Pandas, Numpy, Matplotlib, Twitter API, Web
+								Scraping
+							</p>
+						</div>
+						<div class="project-button"><a
+								href="https://github.com/samriddhi-99/WeRateDogs-Data-Wrangling-and-Analysis"
+								target="_blank"><button type="button" class="btn btn-dark">View Project</button></a>
+						</div>
+					</div>
+					<div class="card border-light mb-3">
+						<div class="card-header">No-show Medical Appointment | Udacity | Data Analyst Nanodegree</div>
+						<div class="card-body">
+
+							<p class="card-text">
+								<span class="project-text">Duration:</span>04/2020
+								<br>
+								<span class="project-text">Project overview:</span>Analysis to understand the reasons
+								behind a patient’s no-show for a medical appointment.
+								<br>
+								<span class="project-text">Exposure: </span>Pandas, Numpy, Jupyter Notebook, Matplotlib,
+								Seaborn
+							</p>
+						</div>
+						<div class="project-button"><a
+								href="https://github.com/samriddhi-99/Medical-Appointment-No-Show"
+								target="_blank"><button type="button" class="btn btn-dark">View Project</button></a>
+						</div>
+					</div>
+					<div class="card border-light mb-3">
+						<div class="card-header">Flower Image Recognition | Udacity Pytorch Scholarship</div>
+						<div class="card-body">
+
+							<p class="card-text">
+								<span class="project-text">Duration:</span> 12/2018
+								<br>
+								<span class="project-text">Project overview:</span>To recognize 102 different types of
+								flowers using CNN.
+								<br>
+								<span class="project-text">Exposure: </span>CNN, Jupyter Notebook, OpenCV
+							</p>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<!-- <br><br> -->
+			<div id="skills" class="section_nav">
+				<div class="heading">
+					<h3 style="color: white; letter-spacing: 3px; font-family: 'Poppins', Arial, sans-serif;">SKILLS
+					</h3>
+				</div>
+				<div class="flex-skills">
+					<div class="skills-inner">Full Stack Development</div>
+					<div class="skills-inner">Frontend Development</div>
+					<div class="skills-inner">Backend Development</div>
+					<div class="skills-inner">Data Structure and Algorithm</div>
+					<div class="skills-inner">Embedded Domain</div>
+					<div class="skills-inner">Project Management</div>
+					<div class="skills-inner">Quality Engineering</div>
+					<div class="skills-inner">Team Leadership and Mentoring</div>
+					<div class="skills-inner">Software Development Lifecycle</div>
+					<div class="skills-inner">Risk Mitigation</div>
+					<div class="skills-inner">Incident Management</div>
+					<div class="skills-inner">Cross Team Collaboration</div>
+					<div class="skills-inner-languages">C/C++</div>
+					<div class="skills-inner-languages">PHP</div>
+					<div class="skills-inner-languages">MongoDB</div>
+					<div class="skills-inner-languages">Java</div>
+					<div class="skills-inner-languages">JavaScript</div>
+					<div class="skills-inner-languages">HTML/CSS</div>
+					<div class="skills-inner-languages">SQL</div>
+					<div class="skills-inner-languages">Jira</div>
+					<div class="skills-inner">Git</div>
+					<div class="skills-inner">VS Code</div>
+				</div>
+			</div>
+			<br><br>
+			<div id="achievements" class="section_nav">
+				<div class="heading">
+					<h3 style="color: white; letter-spacing: 3px; font-family: 'Poppins', Arial, sans-serif;">
+						ACHIEVEMENTS</h3>
+				</div>
+				<div>
+					<ul>
+						<li>Received Two times Employee of The Month.
+						</li>
+						<li>Received ABCD movement from Netcore cloud for satisfaction and in work delievry</b>.</li>
+						<li>Received <b>3 awards</b> in recognition of contributions to maintaining the codebase</b>.</li>
+						<li>Secured <b>2nd place</b> in <b>National Level Coding competition in C</b></li>
+					</ul>
+				</div>
+			</div>
+			<br><br>
+			<div id="certificates" class="section_nav">
+				<div class="heading">
+					<h3 style="color: white; letter-spacing: 3px; font-family: 'Poppins', Arial, sans-serif;">
+						CERTIFICATES</h3>
+				</div>
+				<br>
+				<div class="certi-flex">
+					<div class="certi-box"><a href="https://www.hackerrank.com/certificates/47ee1f70b19f"
+							target="_blank"><img src="images/problemsolvingbasic.png"></a><br>
+						<h6 class="certi-name">Problem Solving - Hackerrank</h6>
+					</div>
+					<div class="certi-box"><a
+							href="https://cutshort.io/certificate/16916"
+							target="_blank"><img src="images/php.basic.webp"></a><br>
+						<h6 class="certi-name">Cutshort - PHP Programming</h6>
+					</div>
+					<div class="certi-box"><a
+							href="https://cutshort.io/certificate/19731"
+							target="_blank"><img src="images/javascript.jpg"></a><br>
+						<h6 class="certi-name">JavaScript - Cutshort</h6>
+					</div>
+					<div class="certi-box"><a
+							href="https://www.cloudskillsboost.google/public_profiles/0a909816-5fec-4d15-8d91-245253df65d9/badges/9194781?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share/"
+							target="_blank"><img src="images/googleai.png"></a><br>
+						<h6 class="certi-name">Responible AI - @Google</h6>
+					</div>
+					<div class="certi-box"><a
+							href="https://www.hackerrank.com/certificates/261f17f31c1f/"
+							target="_blank"><img src="images/javabasic.png"></a><br>
+						<h6 class="certi-name">Java Basic - Hackerrank</h6>
+					</div>
+
+					<div class="certi-box"><a
+							href="https://cutshort.io/certificate/98296/"
+							target="_blank"><img src="images/algo.jpg"></a><br>
+						<h6 class="certi-name">Algorithms - Cutshort</h6>
+					</div>
+
+					<div class="certi-box"><a
+							href="https://www.geeksforgeeks.org/certificate/1ee0b7085514ffbccdb84af93e88e489/"
+							target="_blank"><img src="images/gfg.jpg"></a><br>
+						<h6 class="certi-name">Java Backend - GeeksForGeeks</h6>
+					</div>
+
+					<div class="certi-box"><a
+							href="https://www.guvi.in/verify-certificate?id=51c48M76TBO42ia454/"
+							target="_blank"><img src="images/genai.png"></a><br>
+						<h6 class="certi-name">Generative AI - Guvi</h6>
+					</div>
+
+					<!-- <div class="certi-box"><a
+							href="https://www.cloudskillsboost.google/public_profiles/0a909816-5fec-4d15-8d91-245253df65d9/badges/9194781?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share/"
+							target="_blank"><img src="images/WEB_api.jpg"></a><br>
+						<h6 class="certi-name">Responible AI - @Google</h6>
+					</div> -->
+				</div>
+			</div>
+			<br><br>
+			<div id="coding" class="section_nav">
+				<div class="heading">
+					<h3 style="color: white; letter-spacing: 3px; font-family: 'Poppins', Arial, sans-serif;">CODING
+						PROFILES</h3>
+				</div>
+				<br>
+				<div class="cod-flex">
+					<!-- <div class="cod-box"><a href="https://www.codechef.com/users/samriddhi18" target="_blank"><img
+								src="images/codechef.png"></a><br>
+						<h6 class="cod-name">Codechef:<br> 4 Star (max)</h6>
+					</div> -->
+					<!-- <div class="cod-box"><a href="https://www.interviewbit.com/profile/samri99" target="_blank"><img
+								src="images/ib.png"></a><br>
+						<h6 class="cod-name">InterviewBit:
+							<br>Global Rank-1274 (max) <br>College Rank-2
+						</h6>
+					</div> -->
+					<div class="cod-box"><a href="https://www.hackerrank.com/profile/arunapatil"
+							target="_blank"><img src="images/hackerrank.png"></a><br>
+						<h6 class="cod-name">Hackerrank: 4 Star <br>Problem Solving and Java</h6>
+					</div>
+					<div class="cod-box"><a href="https://leetcode.com/u/patilarunash/" target="_blank"><img
+								src="images/leetcode.png"></a><br>
+						<h6 class="cod-name">Leetcode</h6>
+					</div>
+				</div>
+			</div>
+			<br><br>
+			<div id="contact" class="section_nav">
+				<div class="heading">
+					<h3 style="color: white; letter-spacing: 3px; font-family: 'Poppins', Arial, sans-serif;">CONTACT ME
+					</h3>
+				</div>
+				<div class="contact_css">
+					<!-- <div class="contact_inner" id="contact_inner_left">
+						<form id="form">
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="from_name">Name</label>
+									<input type="text" name="from_name" class="form-control" id="from_name"
+										placeholder="Name" required>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="from_email">Email</label>
+									<input type="email" class="form-control" id="from_email" placeholder="Email"
+										name="from_email" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<input type="text" class="form-control" id="subject" placeholder="Subject"
+									name="subject">
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea type="text" class="form-control" id="message" placeholder="Message"
+									name="message" style="height: 100px!important" required></textarea>
+							</div>
+							<a
+								href="mailto:srivastava.samriddhi99@gmail.com?subject=Testing out mailto!&body=This is only a test!">
+								<button type="submit" class="btn btn-primary " id="submit_contact">Submit</button></a>
+						</form> -->
+						<!-- <center>
+							<p id="message_status"></p>
+						</center> 
+					</div> -->
+
+					<div class="contact_inner" id="contact_inner_right">
+						<span class="my_name_footer">Aruna Patil</span><br>
+						<b>Principal Software Engineer</b>
+						<br><br>
+						<b>Email:</b>
+						<br>
+						patilarunash@gmail.com
+						<br>
+						<b>Phone Number:</b><br>
+						+919146758956
+						<br>
+						<b>Location:</b>
+						<br>
+						Mumbai, India
+						<br>
+						<b style="margin-right: 5px;">Resume:</b>
+						<a href="https://drive.google.com/file/d/1NPoKhn1BkIUHgLBlw2g6TCLZ8CUo3Rf_/view?usp=sharing"
+							target="_blank" download><i class="fa fa-download fa-2x text-grey424242"
+								aria-hidden="true"></i></a>
+						<br><br>
+						<hr>
+						<a href="https://www.linkedin.com/in/patilaruna/" target="_blank"><i
+								class="fa fa-linkedin fa-2x icon-cog setclr" aria-hidden="true"></i></a>
+						<a href="https://github.com/samriddhi-99" target="_blank"><i
+								class="fa fa-github fa-2x giticon icon-cog setclr" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+			AOS.init();
+		</script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+		<!-- <script type="text/javascript">
+			emailjs.init('user_DZZAN8JM3CkHptXeFxBXw')
+		</script> -->
+		<script src="js/scroll.js"></script>
+		<script src="js/animations.js"></script>
 </body>
+
 </html>
